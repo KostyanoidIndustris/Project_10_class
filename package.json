@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "jquery": "^3.6.4",
+    "less": "^4.1.3"
+  }
+}

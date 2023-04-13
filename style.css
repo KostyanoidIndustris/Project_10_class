@@ -1,0 +1,174 @@
+
+body {
+    font-family:Comic Sans MS, Comic Sans, cursive;
+    
+}
+
+html {
+    background-image: url(1644890791_33-fikiwiki-com-p-kartinki-yazikov-programmirovaniya-39.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
+
+.card4{
+    width:auto;
+    height: auto;
+    opacity: 0.8;
+    background-color:whitesmoke ;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.card5{
+    width:auto;
+    height: auto;
+    opacity: 0.8;
+    background-color:whitesmoke ;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.card6{
+    width:auto;
+    height: auto;
+    opacity: 0.8;
+    background-color:whitesmoke ;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+h2 {
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.footer-author{
+    font-size: 24px;
+    color: #F5F5F5;
+}
+
+/*//////////////////////////slaider//*/ 
+.slider__items {
+  counter-reset: slide;
+  
+}
+
+.slider__item {
+  counter-increment: slide;
+}
+
+.slider__item>div::before {
+  content: counter(slide);
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: #fff;
+  font-style: italic;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+
+
+.carousel {
+  
+  position: relative;
+}
+  .carousel .carousel-indicators {
+    position: absolute;
+      bottom: 100px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 15;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+      list-style: none;
+  }
+      .carousel .carousel-indicators li {
+          flex: 0 1 auto;
+          width: 20px;
+          height: 20px;
+          margin-right: 5px;
+          margin-left: 5px;
+          cursor: pointer;
+          background-color: #343a40;
+          border: 2px solid #fff;
+          border-radius: 50%;
+      }
+      .carousel .carousel-indicators .active {
+          background-color: #025fff;
+      }
+  .carousel .carousel-window {
+      width: 1000px;
+      height: 800px;      
+      overflow: hidden;
+      margin: auto;
+      margin-top: 10px;
+      margin-bottom: -120px;
+      
+  }
+  .carousel .carousel-slides {
+      height: 125%;
+      display: flex;
+      transition: transform 0.5s;
+  }
+  .carousel .carousel-item {
+      height: 80%;
+  }
+      .carousel .carousel-item img {
+          width: 100%;
+          height: 80%;
+          object-fit: cover;
+      }
+  .carousel .carousel-prev, .carousel .carousel-next {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 1156px;
+      z-index: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100px;
+      height: 640px;
+      color: #fff;
+      opacity: 0.7;
+      text-align: center;
+      font-size: 40px;
+      text-decoration: none;
+  }
+  .carousel .carousel-prev:hover, .carousel .carousel-next:hover {
+      opacity: 1;
+      background-color: rgba(0, 0, 0, 0.2);
+  }
+  .carousel .carousel-prev {
+      left: 256px;
+  }
+  .carousel .carousel-next {
+      right: 0;
+  }
