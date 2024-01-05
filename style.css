@@ -149,7 +149,8 @@ h2 {
       position: absolute;
       top: 0;
       bottom: 0;
-      left: 1156px;
+      left: 1485px;
+      right: 100 px;
       z-index: 1;
       display: flex;
       justify-content: center;
